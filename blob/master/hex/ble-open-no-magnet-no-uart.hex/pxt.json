@@ -1,0 +1,25 @@
+{
+    "name": "microbit-web-bluetooth-blob-master-hex-ble-open-no-magnet-no-uarthex",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "microbit-web-bluetooth": "github:davidllwilliams/microbit-web-bluetooth"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
