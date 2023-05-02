@@ -1,0 +1,40 @@
+{
+    "name": "microbit-web-bluetooth",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "documentation.md",
+        "package-lock.json",
+        "package.json",
+        "src/event-dispatcher.ts",
+        "src/index.ts",
+        "src/promise-queue.ts",
+        "src/service-helper.ts",
+        "src/services/accelerometer.ts",
+        "src/services/button.ts",
+        "src/services/device-information.ts",
+        "src/services/dfu-control.ts",
+        "src/services/event.ts",
+        "src/services/io-pin.ts",
+        "src/services/led.ts",
+        "src/services/magnetometer.ts",
+        "src/services/temperature.ts",
+        "src/services/uart.ts",
+        "tsconfig.json",
+        "tslint.json",
+        "typedoc.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
